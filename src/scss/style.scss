@@ -1,1 +1,46 @@
 @import "reset.scss";//reset
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  ::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 1px;
+    height: 1px;
+  }
+  
+  .name-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    height: 1000px;
+  }
+  
+  .name-wrap {
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+  }
+  
+  .name-wrap-right {
+    position: absolute;
+    right: 100vw;
+  }
+  
+  .name-text {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 15vw;
+  }
+  
